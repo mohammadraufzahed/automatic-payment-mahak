@@ -7,7 +7,13 @@
   "author": "Mohammad Raufzahed <mohammadraufzahed@protonmail.com>",
   "license": "GPL-3.0-or-later",
   "private": false,
+  "scripts": {
+    "start": "nodemon main.js -e js"
+  },
   "dependencies": {
     "commander": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
