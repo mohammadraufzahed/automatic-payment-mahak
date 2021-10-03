@@ -1,2 +1,2 @@
 # About
-This app will automatically pay a payment a donation to the Mahak charity.
+This app will automatically pay a payment as donation to the Mahak charity.
