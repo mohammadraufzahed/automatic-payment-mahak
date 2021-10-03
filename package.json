@@ -6,5 +6,8 @@
   "repository": "https://github.com/mohammadraufzahed/automatic-payment-mahak.git",
   "author": "Mohammad Raufzahed <mohammadraufzahed@protonmail.com>",
   "license": "GPL-3.0-or-later",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
 }
