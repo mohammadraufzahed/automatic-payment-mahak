@@ -1,0 +1,10 @@
+{
+  "name": "automatic-payment-mahak",
+  "version": "0.0.1",
+  "description": "This app will automatically pay a payment as donation to the Mahak charity.",
+  "main": "main.js",
+  "repository": "https://github.com/mohammadraufzahed/automatic-payment-mahak.git",
+  "author": "Mohammad Raufzahed <mohammadraufzahed@protonmail.com>",
+  "license": "GPL-3.0-or-later",
+  "private": false
+}
