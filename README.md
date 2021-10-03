@@ -1,2 +1,2 @@
-# automatic-payment-mahak
-This app will automatic make a payment on the mahak website base on the input
+# About
+This app will automatically pay a payment a donation to the Mahak charity.
