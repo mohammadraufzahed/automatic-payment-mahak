@@ -7,13 +7,26 @@
   "author": "Mohammad Raufzahed <mohammadraufzahed@protonmail.com>",
   "license": "GPL-3.0-or-later",
   "private": false,
+  "bin": "main.js",
   "scripts": {
-    "start": "nodemon main.js -e js"
+    "start": "nodemon main.js -e js",
+    "docs": "jsdoc -c jsdoc.conf.json",
+    "build": "pkg --compress Brotli ."
+  },
+  "pkg": {
+    "assets": [
+      "assets/**"
+    ],
+    "outputPath": "build"
   },
   "dependencies": {
-    "commander": "^8.2.0"
+    "colors": "^1.4.0",
+    "commander": "^8.2.0",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "pkg": "^5.3.3"
   }
 }

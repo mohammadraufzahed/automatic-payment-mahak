@@ -1,0 +1,14 @@
+{
+  "source": {
+    "include": ["."],
+    "exclude": ["node_modules", "out"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "recurseDepth": 10,
+  "opts": {
+    "recurse": true,
+    "destination": "docs",
+    "encoding": "utf8"
+  }
+}
