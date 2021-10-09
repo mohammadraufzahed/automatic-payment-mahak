@@ -30,10 +30,10 @@ async function main() {
   const opts = program.opts();
   // Run the app base on arguments
   if (opts.showCards) {
-    // Imports the showCards function from Cards module
-    const { showCards } = require("./modules/Card");
+    // Imports the printCards function from Cards module
+    const { printCards } = require("./modules/Card");
     // Run the app
-    showCards();
+    printCards();
   }
   // If no argument passed print the help
   else {

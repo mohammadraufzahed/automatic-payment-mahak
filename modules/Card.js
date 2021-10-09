@@ -12,7 +12,7 @@
  * await showCards(); // Print the saved cards
  * @returns {void} Print the saved cards
  */
-async function showCards() {
+async function printCards() {
   // Get the required modules
   const { readFileSync } = require("fs");
   const { normalize } = require("path");
@@ -49,5 +49,5 @@ async function showCards() {
 }
 
 module.exports = {
-  showCards,
+  printCards,
 };
