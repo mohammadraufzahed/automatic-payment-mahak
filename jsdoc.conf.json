@@ -9,6 +9,19 @@
   "opts": {
     "recurse": true,
     "destination": "docs",
-    "encoding": "utf8"
+    "encoding": "utf8",
+    "template": "node_modules/better-docs"
+  },
+  "templates": {
+    "better-docs": {
+      "name": "Automatic Mahak Payment",
+      "title": "Automatic Mahak Payment",
+      "navLinks": [
+        {
+          "label": "Github",
+          "href": "https://github.com/mohammadraufzahed/automatic-payment-mahak"
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,35 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		 "plugins/markdown"
+	],
+	"opts":
+	{
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/home/morty/Workspace/Personal/automatic-payment-mahak/src/",
+		"destination"	:"/home/morty/Workspace/Personal/automatic-payment-mahak/docs",
+		"tutorials"		:"",
+		"systemName"	: "automatic-payment-mahak",
+		"footer"		: "Hello Footer",
+		"copyright"		: "automatic-payment-mahak Copyright © 2021 morty.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}

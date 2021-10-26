@@ -1,0 +1,4 @@
+{
+    "entryPoints": ["src/", "src/types/", "src/classes/"],
+    "entryPointStrategy": "expand"
+}
